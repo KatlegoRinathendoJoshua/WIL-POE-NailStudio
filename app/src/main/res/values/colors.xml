@@ -1,0 +1,11 @@
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FFF7F7F9</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="text_primary">#FF1F1F1F</color>
+    <color name="text_secondary">#FF6B6B6B</color>
+    <color name="primary">#FFB76E79</color>
+    <color name="primary_dark">#FF96525D</color>
+    <color name="accent">#FFE8D5CB</color>
+    <color name="outline">#FFE2E2E6</color>
+</resources>
