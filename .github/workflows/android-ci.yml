@@ -26,14 +26,13 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.7'
 
+      # Notice the change to ./gradlew below
       - name: Build debug APK
-        run: gradle assembleDebug
+        run: ./gradlew assembleDebug
 
       - name: Run unit tests
-        run: gradle testDebugUnitTest
+        run: ./gradlew testDebugUnitTest
 
       - name: Upload debug APK
         if: success()
