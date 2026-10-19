@@ -1,8 +1,9 @@
 package com.nailstudio.app
-import com.nailstudio.app.BuildConfig
-import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.auth.Auth
+import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.postgrest.Postgrest
+
+
 
 object SupabaseClientProvider {
 
